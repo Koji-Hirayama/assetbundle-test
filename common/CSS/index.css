@@ -1,0 +1,109 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Noto Sans JP', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1px;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* ↓↓ワイヤー用↓↓ */
+.wire-border{
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.wire-block-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    color: gray;
+}
+/* ↑↑ワイヤー用↑↑ */
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+/* ヘッダー */
+header{
+    height: 150px;
+}
+
+/* 商品トップ */
+.product-top{
+    height: 500px;
+}
+
+/* セールスポイント */
+.sales-point{
+    height: 250px;
+}
+
+/* 商品効能 */
+.product-efficacy{
+    height: 700px;
+}
+
+/* 使い方説明 */
+.how-to-use{
+    height: 450px;
+}
+
+/* 商品ラインナップ */
+.product-line-up{
+    height: 800px;
+}
+
+/* 商品ラインナップ */
+.additional-functions{
+    height: 300px;
+}
+
+/* 購入先リンク */
+.purchase-link{
+    height: 250px;
+}
+
+/* 購入先リンク */
+.sns-share{
+    height: 70px;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+/* フッター */
+footer{
+    height: 70px;
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+}
+
+footer .wire-block-name{
+    color: #fff;
+}
